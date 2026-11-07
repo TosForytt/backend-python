@@ -7,5 +7,6 @@ def greet_adult(name, age):
     else:
         return f"Привет, {name}, тебе {age} лет"
 
-print(greet_adult("Олег", 25))
-print(greet_adult("Аня", 10))
+if __name__ == "__main__":
+    print(greet_adult("Олег", 25))
+    print(greet_adult("Аня", 10))
